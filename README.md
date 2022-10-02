@@ -7,7 +7,6 @@
 - PolyZone
 - ps-dispatch
 - qb-target
-**
 
 ## How to install
 - Add the code below to `LENT-PedSpawner/peds.lua`
@@ -32,7 +31,8 @@
         ["text"] = "Start Drug Run",
 
         ["clothing"] = false,
-        ["head"] = 1, ["H_Texture"] = 0,
+        ["mother"] = 0, ["father"] = 0, ["mix"] = 0.0,
+        ["head"] = 1, ["HAIR_Texture"] = 3, ["HAIR_HIGHLIGHT"] = 0,
         ["hands"] = 1, ["HA_Texture"] = 0,
         ["undershirts"] = 1, ["U_Texture"] = 0,
         ["tops"] = 1, ["T_Texture"] = 0,
