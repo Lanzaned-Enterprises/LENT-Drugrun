@@ -10,3 +10,4 @@ RegisterServerEvent("LENT:SERVER:DRUGRUN:END", function()
     Player.Functions.RemoveItem("cokebricks", Config.ItemAmount)
     TriggerClientEvent("SEND:EMAIL", source, sender, subject, text)
 end)
+
